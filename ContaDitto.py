@@ -134,5 +134,6 @@ class ContaDittoApp:
 
 if __name__ == "__main__":
     root = tk.Tk()
+    root.iconbitmap("Contaditto Icon.ico")
     app = ContaDittoApp(root)
     root.mainloop()
